@@ -113,7 +113,7 @@ import {Link,withRouter} from 'react-router-dom'
                 </div>
                 </div>
             <div className="search">
-            <input type="text" class="mainLoginInput" placeholder="&#61442; Search by task name" onChange={this.onSearchHandler}/>
+            <input type="text" class="mainLoginInput" placeholder="&#61442; Search by task" onChange={this.onSearchHandler}/>
             <button style={{width:"60px",backgroundColor:"green",margin:"2%"}} onClick={this.onChangeHandler}>search</button>
             </div>
                
