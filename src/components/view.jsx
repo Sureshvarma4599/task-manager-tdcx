@@ -117,7 +117,7 @@ import {Link,withRouter} from 'react-router-dom'
             <button style={{width:"60px",backgroundColor:"green",margin:"2%"}} onClick={this.onChangeHandler}>search</button>
             </div>
                
-                  
+                  <h2 style={{textAlign:'start',marginLeft:'10%'}}>Tasks</h2>
             {this.state.datas.length>0 && this.state.datas.reverse().map(data=>(
            <span key={data.id}>
                <div className="datas">
